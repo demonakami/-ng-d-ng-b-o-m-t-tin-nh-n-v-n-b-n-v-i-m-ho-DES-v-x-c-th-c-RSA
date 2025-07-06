@@ -36,7 +36,7 @@ Luồng xử lý
 
 
 5. Luồng sự kiện tổng thể của hệ thống
-6. 
+
 ![image](https://github.com/user-attachments/assets/09872148-ede7-418e-aa93-04eaa3c96bdb)
 
 Sơ đồ luồng sự kiện đăng ký
@@ -58,9 +58,11 @@ Sơ đồ luồng sự kiện gửi tin nhắn
 Sơ đồ luồng sự kiện nhận tin nhắn
 
 ![image](https://github.com/user-attachments/assets/fd4e932e-7322-47ea-ba42-8425b8fb3c88)
+
 Giao diện đăng ký
 
 ![image](https://github.com/user-attachments/assets/5d5b6577-ea4d-4681-aa71-94644427f9f7)
+
 Giao diện đăng nhập
 
 ![image](https://github.com/user-attachments/assets/a8852764-419a-437c-a18c-7210ee5b932d)
