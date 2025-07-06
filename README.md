@@ -34,17 +34,29 @@ Luồng xử lý
 • Nếu không hợp lệ:
 – Gửi NACK với lý do: lỗi hash hoặc chữ ký
 
+
 5. Luồng sự kiện tổng thể của hệ thống
+6. 
 ![image](https://github.com/user-attachments/assets/09872148-ede7-418e-aa93-04eaa3c96bdb)
+
 Sơ đồ luồng sự kiện đăng ký
+
 ![image](https://github.com/user-attachments/assets/ab6c5e6e-e824-4d6a-8fe4-403d7a2d748e)
+
 Sơ dồ luồng sự kiện đăng nhập
+
 ![image](https://github.com/user-attachments/assets/6833815e-0dcf-49bd-aff3-59f3f4d88cba)
+
 Sơ đồ luồng sự kiện trao đổi khóa (Handshake)
+
 ![image](https://github.com/user-attachments/assets/79fecd9c-41d3-46d6-82db-13c42cb64fe1)
+
 Sơ đồ luồng sự kiện gửi tin nhắn
+
 ![image](https://github.com/user-attachments/assets/37393984-cc78-41d4-978f-09d1870f43af)
+
 Sơ đồ luồng sự kiện nhận tin nhắn
+
 ![image](https://github.com/user-attachments/assets/fd4e932e-7322-47ea-ba42-8425b8fb3c88)
 Giao diện đăng ký
 
@@ -57,6 +69,7 @@ Giao diện chat
 ![image](https://github.com/user-attachments/assets/63a7d9e4-342b-4062-b651-5f6951f386eb)
 
 6. Mô phỏng truyền dữ liệu
+
 Khi người dùng đăng nhập thành công hệ thống sẽ lấy thông tin của người dùng trong database.
  
 
@@ -68,7 +81,7 @@ Khi người dùng đăng nhập thành công hệ thống sẽ lấy thông tin
 
 - Khi 1 bên gửi tin nhắn hệ thống sẽ mã hóa và gửi đến bên còn lại.
 
- ![image](https://github.com/user-attachments/assets/9752df67-d02e-4e70-b31c-df67c10e662f)
+![image](https://github.com/user-attachments/assets/9752df67-d02e-4e70-b31c-df67c10e662f)
 
 
 
