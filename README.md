@@ -66,6 +66,7 @@ Giao diện đăng ký
 Giao diện đăng nhập
 
 ![image](https://github.com/user-attachments/assets/a8852764-419a-437c-a18c-7210ee5b932d)
+
 Giao diện chat
 
 ![image](https://github.com/user-attachments/assets/63a7d9e4-342b-4062-b651-5f6951f386eb)
