@@ -1,0 +1,212 @@
+2025-06-27 23:55:41,520 - INFO - [SERVER] Starting secure messaging server...
+2025-06-27 23:55:41,563 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-27 23:55:41,563 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-27 23:55:41,567 - INFO -  * Restarting with stat
+2025-06-27 23:55:43,554 - INFO - [SERVER] Starting secure messaging server...
+2025-06-27 23:55:43,580 - WARNING -  * Debugger is active!
+2025-06-27 23:55:43,588 - INFO -  * Debugger PIN: 139-635-676
+2025-06-27 23:55:43,662 - INFO - [WS] User connected: hitman
+2025-06-27 23:55:43,663 - INFO - [WS] User connected: admin1
+2025-06-27 23:55:57,397 - INFO - 127.0.0.1 - - [27/Jun/2025 23:55:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-27 23:55:57,495 - INFO - 127.0.0.1 - - [27/Jun/2025 23:55:57] "GET /chat HTTP/1.1" 200 -
+2025-06-27 23:55:57,593 - INFO - [WS] User connected: hitman
+2025-06-27 23:56:01,906 - ERROR - [WS] WebSocket error for hitman: Connection closed: 1005 
+2025-06-27 23:56:01,907 - INFO - [WS] User disconnected: hitman
+2025-06-27 23:56:01,908 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:01] "GET /ws HTTP/1.1" 200 -
+2025-06-27 23:56:01,931 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:01] "GET /chat HTTP/1.1" 200 -
+2025-06-27 23:56:01,991 - INFO - [WS] User connected: hitman
+2025-06-27 23:56:09,750 - ERROR - [WS] WebSocket error for hitman: Connection closed: 1005 
+2025-06-27 23:56:09,752 - INFO - [WS] User disconnected: hitman
+2025-06-27 23:56:09,753 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:09] "GET /ws HTTP/1.1" 200 -
+2025-06-27 23:56:09,772 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-27 23:56:09,824 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:09] "GET /login HTTP/1.1" 200 -
+2025-06-27 23:56:21,250 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-27 23:56:21,262 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:21] "GET /chat HTTP/1.1" 200 -
+2025-06-27 23:56:21,311 - INFO - [WS] User connected: hitman
+2025-06-27 23:56:24,777 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:24] "GET /get_public_key?username=admin1 HTTP/1.1" 200 -
+2025-06-27 23:56:24,792 - INFO - [SEND] Signature request from hitman
+2025-06-27 23:56:24,800 - INFO - [SEND] Hash generated: 99367bb06ca5ef6f...
+2025-06-27 23:56:24,967 - INFO - [SEND] Signature created: OK
+2025-06-27 23:56:24,968 - INFO - [SEND] Signature length: 344 chars
+2025-06-27 23:56:24,969 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:24] "POST /sign_info HTTP/1.1" 200 -
+2025-06-27 23:56:25,011 - INFO - [RECV] DES key decryption request from admin1
+2025-06-27 23:56:25,024 - INFO - [RECV] Starting DES key decryption for admin1
+2025-06-27 23:56:25,026 - INFO - [RECV] Base64 decoded: OK
+2025-06-27 23:56:25,138 - INFO - [RECV] Private key loaded: OK
+2025-06-27 23:56:25,145 - INFO - [RECV] DES key decrypted: OK
+2025-06-27 23:56:25,147 - INFO - [RECV] Decrypted DES key: P0HDHAr7...
+2025-06-27 23:56:25,150 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:25] "POST /decrypt_des_key HTTP/1.1" 200 -
+2025-06-27 23:56:31,615 - INFO - [SEND] Signature request from hitman
+2025-06-27 23:56:31,616 - INFO - [SEND] Hash generated: c2ad7a948f9e8082...
+2025-06-27 23:56:31,730 - INFO - [SEND] Signature created: OK
+2025-06-27 23:56:31,730 - INFO - [SEND] Signature length: 344 chars
+2025-06-27 23:56:31,732 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:31] "POST /sign_info HTTP/1.1" 200 -
+2025-06-27 23:56:42,353 - ERROR - [WS] WebSocket error for admin1: Connection closed: 1005 
+2025-06-27 23:56:42,353 - INFO - [WS] User disconnected: admin1
+2025-06-27 23:56:42,354 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:42] "GET /ws HTTP/1.1" 200 -
+2025-06-27 23:56:42,411 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-27 23:56:42,447 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:42] "GET /login HTTP/1.1" 200 -
+2025-06-27 23:56:51,232 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-27 23:56:51,244 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:51] "GET /chat HTTP/1.1" 200 -
+2025-06-27 23:56:51,370 - INFO - [WS] User connected: admin1
+2025-06-27 23:56:55,261 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:55] "GET /get_public_key?username=hitman HTTP/1.1" 200 -
+2025-06-27 23:56:55,284 - INFO - [SEND] Signature request from admin1
+2025-06-27 23:56:55,285 - INFO - [SEND] Hash generated: d09a5e0e523a1d12...
+2025-06-27 23:56:55,401 - INFO - [SEND] Signature created: OK
+2025-06-27 23:56:55,401 - INFO - [SEND] Signature length: 344 chars
+2025-06-27 23:56:55,402 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:55] "POST /sign_info HTTP/1.1" 200 -
+2025-06-27 23:56:55,449 - INFO - [RECV] DES key decryption request from hitman
+2025-06-27 23:56:55,465 - INFO - [RECV] Starting DES key decryption for hitman
+2025-06-27 23:56:55,466 - INFO - [RECV] Base64 decoded: OK
+2025-06-27 23:56:55,583 - INFO - [RECV] Private key loaded: OK
+2025-06-27 23:56:55,592 - INFO - [RECV] DES key decrypted: OK
+2025-06-27 23:56:55,593 - INFO - [RECV] Decrypted DES key: 2f97uQgd...
+2025-06-27 23:56:55,594 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:55] "POST /decrypt_des_key HTTP/1.1" 200 -
+2025-06-27 23:56:59,509 - INFO - [SEND] Signature request from admin1
+2025-06-27 23:56:59,509 - INFO - [SEND] Hash generated: 63d509b2bc1c9db4...
+2025-06-27 23:56:59,615 - INFO - [SEND] Signature created: OK
+2025-06-27 23:56:59,615 - INFO - [SEND] Signature length: 344 chars
+2025-06-27 23:56:59,618 - INFO - 127.0.0.1 - - [27/Jun/2025 23:56:59] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:07:54,776 - INFO - [SEND] Signature request from admin1
+2025-06-28 00:07:54,777 - INFO - [SEND] Hash generated: 2fa5b38529246cb1...
+2025-06-28 00:07:54,907 - INFO - [SEND] Signature created: OK
+2025-06-28 00:07:54,908 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:07:54,909 - INFO - 127.0.0.1 - - [28/Jun/2025 00:07:54] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:08:04,902 - ERROR - [WS] WebSocket error for hitman: Connection closed: 1005 
+2025-06-28 00:08:04,905 - INFO - [WS] User disconnected: hitman
+2025-06-28 00:08:04,907 - INFO - 127.0.0.1 - - [28/Jun/2025 00:08:04] "GET /ws HTTP/1.1" 200 -
+2025-06-28 00:37:28,465 - INFO - [SERVER] Starting secure messaging server...
+2025-06-28 00:37:28,509 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 00:37:28,541 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-28 00:37:28,551 - INFO -  * Restarting with stat
+2025-06-28 00:37:30,441 - INFO - [SERVER] Starting secure messaging server...
+2025-06-28 00:37:30,470 - WARNING -  * Debugger is active!
+2025-06-28 00:37:30,476 - INFO -  * Debugger PIN: 139-635-676
+2025-06-28 00:37:30,553 - INFO - [WS] User connected: hitman
+2025-06-28 00:37:30,554 - INFO - [WS] User connected: admin1
+2025-06-28 00:37:32,117 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-28 00:37:32,255 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:32] "GET /chat HTTP/1.1" 200 -
+2025-06-28 00:37:32,353 - INFO - [WS] User connected: hitman
+2025-06-28 00:37:35,996 - ERROR - [WS] WebSocket error for hitman: Connection closed: 1005 
+2025-06-28 00:37:35,998 - INFO - [WS] User disconnected: hitman
+2025-06-28 00:37:36,000 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:35] "GET /ws HTTP/1.1" 200 -
+2025-06-28 00:37:38,044 - ERROR - [WS] WebSocket error for hitman: Connection closed: 1005 
+2025-06-28 00:37:38,045 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:38] "GET /ws HTTP/1.1" 200 -
+2025-06-28 00:37:38,066 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-28 00:37:38,102 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:38] "GET /login HTTP/1.1" 200 -
+2025-06-28 00:37:45,515 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 00:37:45,524 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:45] "GET /chat HTTP/1.1" 200 -
+2025-06-28 00:37:45,572 - INFO - [WS] User connected: hitman
+2025-06-28 00:37:47,753 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:47] "GET /get_public_key?username=admin1 HTTP/1.1" 200 -
+2025-06-28 00:37:47,771 - INFO - [SEND] Signature request from hitman
+2025-06-28 00:37:47,777 - INFO - [SEND] Hash generated: 86d382108dd76675...
+2025-06-28 00:37:47,950 - INFO - [SEND] Signature created: OK
+2025-06-28 00:37:47,951 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:37:47,952 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:47] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:37:47,990 - INFO - [RECV] DES key decryption request from admin1
+2025-06-28 00:37:48,006 - INFO - [RECV] Starting DES key decryption for admin1
+2025-06-28 00:37:48,006 - INFO - [RECV] Base64 decoded: OK
+2025-06-28 00:37:48,157 - INFO - [RECV] Private key loaded: OK
+2025-06-28 00:37:48,166 - INFO - [RECV] DES key decrypted: OK
+2025-06-28 00:37:48,167 - INFO - [RECV] Decrypted DES key: g6NdiGB1...
+2025-06-28 00:37:48,168 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:48] "POST /decrypt_des_key HTTP/1.1" 200 -
+2025-06-28 00:37:58,790 - ERROR - [WS] WebSocket error for admin1: Connection closed: 1005 
+2025-06-28 00:37:58,791 - INFO - [WS] User disconnected: admin1
+2025-06-28 00:37:58,792 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:58] "GET /ws HTTP/1.1" 200 -
+2025-06-28 00:37:58,831 - INFO - 127.0.0.1 - - [28/Jun/2025 00:37:58] "GET /chat HTTP/1.1" 200 -
+2025-06-28 00:37:59,078 - INFO - [WS] User connected: admin1
+2025-06-28 00:38:01,832 - INFO - 127.0.0.1 - - [28/Jun/2025 00:38:01] "GET /get_public_key?username=hitman HTTP/1.1" 200 -
+2025-06-28 00:38:01,850 - INFO - [SEND] Signature request from admin1
+2025-06-28 00:38:01,851 - INFO - [SEND] Hash generated: 8185563bc61140b1...
+2025-06-28 00:38:01,964 - INFO - [SEND] Signature created: OK
+2025-06-28 00:38:01,965 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:38:01,966 - INFO - 127.0.0.1 - - [28/Jun/2025 00:38:01] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:38:02,003 - INFO - [RECV] DES key decryption request from hitman
+2025-06-28 00:38:02,014 - INFO - [RECV] Starting DES key decryption for hitman
+2025-06-28 00:38:02,015 - INFO - [RECV] Base64 decoded: OK
+2025-06-28 00:38:02,138 - INFO - [RECV] Private key loaded: OK
+2025-06-28 00:38:02,145 - INFO - [RECV] DES key decrypted: OK
+2025-06-28 00:38:02,146 - INFO - [RECV] Decrypted DES key: ZhwBf7lT...
+2025-06-28 00:38:02,147 - INFO - 127.0.0.1 - - [28/Jun/2025 00:38:02] "POST /decrypt_des_key HTTP/1.1" 200 -
+2025-06-28 00:38:05,290 - INFO - [SEND] Signature request from admin1
+2025-06-28 00:38:05,291 - INFO - [SEND] Hash generated: 03c0949b191b2a5c...
+2025-06-28 00:38:05,395 - INFO - [SEND] Signature created: OK
+2025-06-28 00:38:05,395 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:38:05,397 - INFO - 127.0.0.1 - - [28/Jun/2025 00:38:05] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:38:12,267 - INFO - [SEND] Signature request from hitman
+2025-06-28 00:38:12,267 - INFO - [SEND] Hash generated: 2a8ecf70db90ab15...
+2025-06-28 00:38:12,382 - INFO - [SEND] Signature created: OK
+2025-06-28 00:38:12,382 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:38:12,383 - INFO - 127.0.0.1 - - [28/Jun/2025 00:38:12] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:42:23,537 - INFO - [SERVER] Starting secure messaging server...
+2025-06-28 00:42:23,577 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-28 00:42:23,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-28 00:42:23,581 - INFO -  * Restarting with stat
+2025-06-28 00:42:25,589 - INFO - [SERVER] Starting secure messaging server...
+2025-06-28 00:42:25,629 - WARNING -  * Debugger is active!
+2025-06-28 00:42:25,637 - INFO -  * Debugger PIN: 139-635-676
+2025-06-28 00:42:25,723 - INFO - [WS] User connected: admin1
+2025-06-28 00:42:28,126 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:28] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-28 00:42:28,154 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:28] "GET /login HTTP/1.1" 200 -
+2025-06-28 00:42:28,378 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-28 00:42:43,126 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-28 00:42:43,189 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:43] "GET /chat HTTP/1.1" 200 -
+2025-06-28 00:42:43,289 - INFO - [WS] User connected: hitman
+2025-06-28 00:42:47,942 - ERROR - [WS] WebSocket error for admin1: Connection closed: 1005 
+2025-06-28 00:42:47,943 - INFO - [WS] User disconnected: admin1
+2025-06-28 00:42:47,944 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:47] "GET /ws HTTP/1.1" 200 -
+2025-06-28 00:42:47,975 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:47] "GET /chat HTTP/1.1" 200 -
+2025-06-28 00:42:48,084 - INFO - [WS] User connected: admin1
+2025-06-28 00:42:51,470 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:51] "GET /get_public_key?username=ad HTTP/1.1" 200 -
+2025-06-28 00:42:51,484 - INFO - [SEND] Signature request from hitman
+2025-06-28 00:42:51,494 - INFO - [SEND] Hash generated: b330ca08642a5d7f...
+2025-06-28 00:42:51,668 - INFO - [SEND] Signature created: OK
+2025-06-28 00:42:51,669 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:42:51,670 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:51] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:42:51,696 - WARNING - [WS] Key exchange failed - ad not online
+2025-06-28 00:42:51,952 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:51] "GET /get_public_key?username=admin1 HTTP/1.1" 200 -
+2025-06-28 00:42:51,967 - INFO - [SEND] Signature request from hitman
+2025-06-28 00:42:51,969 - INFO - [SEND] Hash generated: 967ffe12d46c8a3e...
+2025-06-28 00:42:52,089 - INFO - [SEND] Signature created: OK
+2025-06-28 00:42:52,089 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:42:52,090 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:52] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:42:52,125 - INFO - [RECV] DES key decryption request from admin1
+2025-06-28 00:42:52,138 - INFO - [RECV] Starting DES key decryption for admin1
+2025-06-28 00:42:52,140 - INFO - [RECV] Base64 decoded: OK
+2025-06-28 00:42:52,256 - INFO - [RECV] Private key loaded: OK
+2025-06-28 00:42:52,263 - INFO - [RECV] DES key decrypted: OK
+2025-06-28 00:42:52,263 - INFO - [RECV] Decrypted DES key: wZ36gxbb...
+2025-06-28 00:42:52,267 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:52] "POST /decrypt_des_key HTTP/1.1" 200 -
+2025-06-28 00:42:56,402 - INFO - [SEND] Signature request from hitman
+2025-06-28 00:42:56,402 - INFO - [SEND] Hash generated: 03934a589f3c0ae8...
+2025-06-28 00:42:56,512 - INFO - [SEND] Signature created: OK
+2025-06-28 00:42:56,514 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:42:56,515 - INFO - 127.0.0.1 - - [28/Jun/2025 00:42:56] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:43:00,289 - INFO - 127.0.0.1 - - [28/Jun/2025 00:43:00] "GET /get_public_key?username=hitman HTTP/1.1" 200 -
+2025-06-28 00:43:00,304 - INFO - [SEND] Signature request from admin1
+2025-06-28 00:43:00,304 - INFO - [SEND] Hash generated: 18f435bf44560ea0...
+2025-06-28 00:43:00,432 - INFO - [SEND] Signature created: OK
+2025-06-28 00:43:00,433 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:43:00,435 - INFO - 127.0.0.1 - - [28/Jun/2025 00:43:00] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:43:00,494 - INFO - [RECV] DES key decryption request from hitman
+2025-06-28 00:43:00,521 - INFO - [RECV] Starting DES key decryption for hitman
+2025-06-28 00:43:00,521 - INFO - [RECV] Base64 decoded: OK
+2025-06-28 00:43:00,638 - INFO - [RECV] Private key loaded: OK
+2025-06-28 00:43:00,646 - INFO - [RECV] DES key decrypted: OK
+2025-06-28 00:43:00,647 - INFO - [RECV] Decrypted DES key: xEXvapWp...
+2025-06-28 00:43:00,648 - INFO - 127.0.0.1 - - [28/Jun/2025 00:43:00] "POST /decrypt_des_key HTTP/1.1" 200 -
+2025-06-28 00:43:04,779 - INFO - [SEND] Signature request from admin1
+2025-06-28 00:43:04,780 - INFO - [SEND] Hash generated: 10c46ef24b9cc2ee...
+2025-06-28 00:43:04,885 - INFO - [SEND] Signature created: OK
+2025-06-28 00:43:04,885 - INFO - [SEND] Signature length: 344 chars
+2025-06-28 00:43:04,888 - INFO - 127.0.0.1 - - [28/Jun/2025 00:43:04] "POST /sign_info HTTP/1.1" 200 -
+2025-06-28 00:43:07,829 - INFO - 127.0.0.1 - - [28/Jun/2025 00:43:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-28 00:45:20,027 - ERROR - [WS] WebSocket error for admin1: Connection closed: 1005 
+2025-06-28 00:45:20,028 - INFO - [WS] User disconnected: admin1
+2025-06-28 00:45:20,030 - INFO - 127.0.0.1 - - [28/Jun/2025 00:45:20] "GET /ws HTTP/1.1" 200 -
+2025-06-28 00:45:23,085 - ERROR - [WS] WebSocket error for hitman: Connection closed: 1005 
+2025-06-28 00:45:23,086 - INFO - [WS] User disconnected: hitman
+2025-06-28 00:45:23,089 - INFO - 127.0.0.1 - - [28/Jun/2025 00:45:23] "GET /ws HTTP/1.1" 200 -

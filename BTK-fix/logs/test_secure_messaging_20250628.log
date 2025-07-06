@@ -1,0 +1,36 @@
+2025-06-28 00:11:57,490 - INFO - [TestSuite] - [SETUP] - [RSA_KEY_GENERATION] - User: user1 - 2048-bit RSA keys generated - Status: OK
+2025-06-28 00:11:57,551 - INFO - [TestSuite] - [SETUP] - [RSA_KEY_GENERATION] - User: user2 - 2048-bit RSA keys generated - Status: OK
+2025-06-28 00:11:57,589 - INFO - [TestSuite] - [KEY_EXCHANGE] - [RSA_SIGN] - User: user1 - ID signature created (256 bytes) - Status: OK
+2025-06-28 00:11:57,589 - INFO - [TestSuite] - [KEY_EXCHANGE] - [DES_KEY_GENERATE] - User: user1 - DES key generated (8 bytes) - Status: OK
+2025-06-28 00:11:57,590 - INFO - [TestSuite] - [KEY_EXCHANGE] - [RSA_ENCRYPT_KEY] - User: user1 - DES key encrypted for user2 (256 bytes) - Status: OK
+2025-06-28 00:11:57,598 - INFO - [TestSuite] - [KEY_EXCHANGE] - [RSA_DECRYPT_KEY] - User: user2 - DES key decrypted successfully - Status: OK
+2025-06-28 00:11:57,598 - INFO - [TestSuite] - [KEY_EXCHANGE] - [RSA_VERIFY] - User: user2 - Signature verification passed - Status: OK
+2025-06-28 00:11:57,601 - INFO - [TestSuite] - [CRYPTO] - [DES_ENCRYPT] - User: user1 - Message encrypted (42 bytes) with CFB mode - Status: OK
+2025-06-28 00:11:57,602 - INFO - [TestSuite] - [INTEGRITY] - [SHA256_CREATE] - User: user1 - Hash created for ciphertext (9c1ca2e7f0eb9073...) - Status: OK
+2025-06-28 00:11:57,603 - INFO - [TestSuite] - [CRYPTO] - [RSA_SIGN] - User: user1 - Message signature created (256 bytes) - Status: OK
+2025-06-28 00:11:57,605 - INFO - [TestSuite] - [MESSAGE] - [PACKAGE_CREATED] - User: user1 - Complete message package created (cipher + hash + sig) - Status: OK
+2025-06-28 00:11:57,605 - INFO - [TestSuite] - [INTEGRITY] - [SHA256_VERIFY] - User: user2 - Hash verification passed - Status: OK
+2025-06-28 00:11:57,606 - INFO - [TestSuite] - [CRYPTO] - [RSA_VERIFY] - User: user2 - Signature verification passed - Status: OK
+2025-06-28 00:11:57,638 - WARNING - [TestSuite] - [AUTH] - [SECURITY] - INVALID_SIGNATURE - User: user4 - Signature verification failed - Status: WARNING
+2025-06-28 00:11:57,638 - WARNING - [TestSuite] - [AUTH] - [SECURITY] - HASH_MISMATCH - User: user5 - Message integrity compromised - Status: WARNING
+2025-06-28 00:11:57,639 - WARNING - [TestSuite] - [AUTH] - [SECURITY] - UNAUTHORIZED_ACCESS - User: anonymous - Access without proper authentication - Status: WARNING
+2025-06-28 00:11:57,639 - WARNING - [TestSuite] - [AUTH] - [SECURITY] - INVALID_KEY - User: user6 - Invalid RSA private key used - Status: WARNING
+2025-06-28 00:11:57,642 - INFO - [TestSuite] - [REPORT] - [SUMMARY] - Test completion: 8/8 (100.0%) - Status: OK
+2025-06-28 10:22:18,047 - INFO - [TestSuite] - [SETUP] - [RSA_KEY_GENERATION] - User: user1 - 2048-bit RSA keys generated - Status: OK
+2025-06-28 10:22:18,222 - INFO - [TestSuite] - [SETUP] - [RSA_KEY_GENERATION] - User: user2 - 2048-bit RSA keys generated - Status: OK
+2025-06-28 10:22:18,368 - INFO - [TestSuite] - [KEY_EXCHANGE] - [RSA_SIGN] - User: user1 - ID signature created (256 bytes) - Status: OK
+2025-06-28 10:22:18,368 - INFO - [TestSuite] - [KEY_EXCHANGE] - [DES_KEY_GENERATE] - User: user1 - DES key generated (8 bytes) - Status: OK
+2025-06-28 10:22:18,369 - INFO - [TestSuite] - [KEY_EXCHANGE] - [RSA_ENCRYPT_KEY] - User: user1 - DES key encrypted for user2 (256 bytes) - Status: OK
+2025-06-28 10:22:18,384 - INFO - [TestSuite] - [KEY_EXCHANGE] - [RSA_DECRYPT_KEY] - User: user2 - DES key decrypted successfully - Status: OK
+2025-06-28 10:22:18,384 - INFO - [TestSuite] - [KEY_EXCHANGE] - [RSA_VERIFY] - User: user2 - Signature verification passed - Status: OK
+2025-06-28 10:22:18,387 - INFO - [TestSuite] - [CRYPTO] - [DES_ENCRYPT] - User: user1 - Message encrypted (42 bytes) with CFB mode - Status: OK
+2025-06-28 10:22:18,389 - INFO - [TestSuite] - [INTEGRITY] - [SHA256_CREATE] - User: user1 - Hash created for ciphertext (77dbe76ced91604a...) - Status: OK
+2025-06-28 10:22:18,390 - INFO - [TestSuite] - [CRYPTO] - [RSA_SIGN] - User: user1 - Message signature created (256 bytes) - Status: OK
+2025-06-28 10:22:18,392 - INFO - [TestSuite] - [MESSAGE] - [PACKAGE_CREATED] - User: user1 - Complete message package created (cipher + hash + sig) - Status: OK
+2025-06-28 10:22:18,394 - INFO - [TestSuite] - [INTEGRITY] - [SHA256_VERIFY] - User: user2 - Hash verification passed - Status: OK
+2025-06-28 10:22:18,394 - INFO - [TestSuite] - [CRYPTO] - [RSA_VERIFY] - User: user2 - Signature verification passed - Status: OK
+2025-06-28 10:22:18,467 - WARNING - [TestSuite] - [AUTH] - [SECURITY] - INVALID_SIGNATURE - User: user4 - Signature verification failed - Status: WARNING
+2025-06-28 10:22:18,467 - WARNING - [TestSuite] - [AUTH] - [SECURITY] - HASH_MISMATCH - User: user5 - Message integrity compromised - Status: WARNING
+2025-06-28 10:22:18,468 - WARNING - [TestSuite] - [AUTH] - [SECURITY] - UNAUTHORIZED_ACCESS - User: anonymous - Access without proper authentication - Status: WARNING
+2025-06-28 10:22:18,471 - WARNING - [TestSuite] - [AUTH] - [SECURITY] - INVALID_KEY - User: user6 - Invalid RSA private key used - Status: WARNING
+2025-06-28 10:22:18,478 - INFO - [TestSuite] - [REPORT] - [SUMMARY] - Test completion: 8/8 (100.0%) - Status: OK

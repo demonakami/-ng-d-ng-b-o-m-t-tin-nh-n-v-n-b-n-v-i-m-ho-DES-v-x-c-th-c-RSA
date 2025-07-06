@@ -1,0 +1,11 @@
+2025-06-27 23:43:47,411 - INFO - [crypto] - [DES_ENCRYPT] User: user1 - Status: OK - Message length: 256 bytes
+2025-06-27 23:43:47,412 - INFO - [crypto] - [RSA_SIGN] User: user1 - Status: OK - Signature created
+2025-06-27 23:43:47,412 - ERROR - [crypto] - [RSA_DECRYPT] User: user2 - Status: FAILED - Invalid private key
+2025-06-27 23:43:48,414 - INFO - [websocket] - [MESSAGE] user1 → user2 - SENT - Encrypted message
+2025-06-27 23:43:48,415 - INFO - [websocket] - [MESSAGE] user1 → user2 - DELIVERED
+2025-06-27 23:43:48,415 - WARNING - [websocket] - [MESSAGE] user1 → user3 - FAILED - User offline
+2025-06-27 23:43:49,416 - INFO - [websocket] - [ACK] user2 → user1 - SENT - Message received successfully
+2025-06-27 23:43:49,418 - INFO - [websocket] - [NACK] user3 → user1 - SENT - Hash verification failed
+2025-06-27 23:43:50,419 - WARNING - [auth] - [SECURITY] INVALID_SIGNATURE - User: user4 - Signature verification failed
+2025-06-27 23:43:50,419 - WARNING - [auth] - [SECURITY] HASH_MISMATCH - User: user5 - Message integrity compromised
+2025-06-27 23:43:50,421 - WARNING - [auth] - [SECURITY] UNAUTHORIZED_ACCESS - User: anonymous - Access without login
